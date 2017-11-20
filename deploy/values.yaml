@@ -1,6 +1,6 @@
 frontend:
   name: agnular
-  host: agnular.gcp.xlent.info
+  host: konferenskorv.gcp.xlent.info
   image:
     repo: etheone/agnular-project
     tag: 3

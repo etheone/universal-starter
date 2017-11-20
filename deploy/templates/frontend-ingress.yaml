@@ -9,7 +9,7 @@ spec:
   - host: {{ .Values.frontend.host }}
     http:
       paths:
-      - path: /
+      - path: /agnular
         backend:
           serviceName: {{ .Values.frontend.name }}
           servicePort: 80
