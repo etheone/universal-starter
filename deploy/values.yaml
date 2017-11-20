@@ -1,0 +1,10 @@
+frontend:
+  name: agnular
+  host: agnular.gcp.xlent.info
+  image:
+    repo: etheone/agnular-project
+    tag: 3
+    pullPolicy: IfNotPresent
+  replicas: 3
+  internalPort: 4000
+  externalPort: 80
